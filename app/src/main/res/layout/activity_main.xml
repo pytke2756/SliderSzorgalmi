@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:id="@+id/rltv_layout">
+    android:id="@+id/rltv_layout"
+    android:background="#000">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -47,7 +48,7 @@
         android:layout_below="@id/sliders"
         android:textAlignment="center"
         android:textSize="25sp"
-        android:textColor="#000"/>
+        android:textColor="#FFF"/>
 
 
 </RelativeLayout>
